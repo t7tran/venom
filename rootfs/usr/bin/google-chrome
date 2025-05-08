@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+exec /opt/chrome/chrome --no-sandbox "$@"
