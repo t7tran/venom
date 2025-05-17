@@ -3,7 +3,7 @@ FROM ubuntu:24.04
     # https://googlechromelabs.github.io/chrome-for-testing/
 ENV CHROME_VERSION=136.0.7103.92 \
     # https://github.com/ovh/venom/releases
-    VENOM_VERSION=1.2.0
+    VENOM_VERSION=1.3.0-beta.2
 
 COPY --chown=1000:1000 rootfs /
 
